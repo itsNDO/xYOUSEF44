@@ -1,0 +1,1 @@
+document.querySelectorAll("a").forEach((e,i)=>{e.style.opacity=0;e.style.transform="translateY(20px)";setTimeout(()=>{e.style.transition=".5s";e.style.opacity=1;e.style.transform="translateY(0)"},300+i*120);});
